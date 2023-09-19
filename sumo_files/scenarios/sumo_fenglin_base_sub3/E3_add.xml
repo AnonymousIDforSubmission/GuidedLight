@@ -1,0 +1,38 @@
+<additional>
+  
+   <e3Detector id="8042c88540534770a7150a8e168c643b" freq="60" file="E3_out.xml">
+      <detEntry lane="-E5_0" pos="-20"/>
+      <detEntry lane="-E5_1" pos="-20"/>
+      <detEntry lane="-E5_2" pos="-20"/>
+      <detExit lane="-E3_0" pos="-20"/>
+      <detExit lane="-E3_1" pos="-20"/>
+   </e3Detector>
+
+
+   <e3Detector id="c56e40431e434bbe970f33141237542a" freq="60" file="E3_out.xml">
+      <detEntry lane="-E3_0" pos="-20"/>
+      <detEntry lane="-E3_1" pos="-20"/>
+      <detExit lane="-E0.276_0" pos="-20"/>
+      <detExit lane="-E0.276_1" pos="-20"/>
+      <detExit lane="-E0.276_2" pos="-20"/>
+   </e3Detector>
+
+
+   <e3Detector id="bf728e39e6fa4460892a663f99305ed6" freq="60" file="E3_out.xml">
+      <detEntry lane="E1_0" pos="-20"/>
+      <detEntry lane="E1_1" pos="-20"/>
+      <detEntry lane="E1_2" pos="-20"/>
+      <detExit lane="E00_0" pos="-20"/>
+      <detExit lane="E00_1" pos="-20"/>
+   </e3Detector>
+
+
+   <e3Detector id="d3d333751a1c4c119a18911b99d0256e" freq="60" file="E3_out.xml">
+      <detEntry lane="E00_0" pos="-20"/>
+      <detEntry lane="E00_1" pos="-20"/>
+      <detExit lane="E4_0" pos="-20"/>
+      <detExit lane="E4_1" pos="-20"/>
+      <detExit lane="E4_2" pos="-20"/>
+   </e3Detector>
+
+</additional>

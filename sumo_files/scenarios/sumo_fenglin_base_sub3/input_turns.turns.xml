@@ -1,0 +1,110 @@
+<edgeRelations>
+
+    <interval begin="0" end="3600">
+
+        <edgeRelation from="E4" to="-E7" probability="0.1"/>
+        <edgeRelation from="E4" to="E5" probability="0.8"/>
+        <edgeRelation from="E4" to="-E6" probability="0.1"/>
+
+        <edgeRelation from="E6" to="-E4" probability="0.2"/>
+        <edgeRelation from="E6" to="-E7" probability="0.5"/>
+        <edgeRelation from="E6" to="E5" probability="0.3"/>
+
+        <edgeRelation from="E7" to="E5" probability="0.4"/>
+        <edgeRelation from="E7" to="-E6" probability="0.5"/>
+        <edgeRelation from="E7" to="-E4" probability="0.1"/>
+
+        <edgeRelation from="-E5" to="-E6" probability="0.1"/>
+        <edgeRelation from="-E5" to="-E4" probability="0.8"/>
+        <edgeRelation from="-E5" to="-E7" probability="0.1"/>
+
+
+        <edgeRelation from="E9" to="-E11" probability="0.1"/>
+        <edgeRelation from="E9" to="E12" probability="0.8"/>
+        <edgeRelation from="E9" to="-E10" probability="0.1"/>
+
+        <edgeRelation from="E11" to="E12" probability="0.3"/>
+        <edgeRelation from="E11" to="-E10" probability="0.5"/>
+        <edgeRelation from="E11" to="-E9" probability="0.4"/>
+
+        <edgeRelation from="E10" to="-E9" probability="0.4"/>
+        <edgeRelation from="E10" to="-E11" probability="0.4"/>
+        <edgeRelation from="E10" to="E12" probability="0.2"/>
+
+        <edgeRelation from="-E12.352" to="-E10" probability="0.1"/>
+        <edgeRelation from="-E12.352" to="-E9" probability="0.8"/>
+        <edgeRelation from="-E12.352" to="-E11" probability="0.1"/>
+
+
+        <edgeRelation from="E14" to="-E15" probability="0.1"/>
+        <edgeRelation from="E14" to="E16" probability="0.8"/>
+        <edgeRelation from="E14" to="-E13" probability="0.1"/>
+
+        <edgeRelation from="E15" to="E16" probability="0.4"/>
+        <edgeRelation from="E15" to="-E13" probability="0.3"/>
+        <edgeRelation from="E15" to="-E14" probability="0.3"/>
+
+        <edgeRelation from="E13" to="-E14" probability="0.3"/>
+        <edgeRelation from="E13" to="-E15" probability="0.5"/>
+        <edgeRelation from="E13" to="E16" probability="0.2"/>
+
+        <edgeRelation from="-E16.416" to="-E13" probability="0.1"/>
+        <edgeRelation from="-E16.416" to="-E14" probability="0.8"/>
+        <edgeRelation from="-E16.416" to="-E15" probability="0.1"/>
+
+
+        <edgeRelation from="E25" to="-E26" probability="0.1"/>
+        <edgeRelation from="E25" to="E27" probability="0.8"/>
+        <edgeRelation from="E25" to="-E24" probability="0.1"/>
+
+        <edgeRelation from="E26" to="E27" probability="0.3"/>
+        <edgeRelation from="E26" to="-E24" probability="0.4"/>
+        <edgeRelation from="E26" to="-E25" probability="0.3"/>
+
+        <edgeRelation from="E24" to="-E25" probability="0.3"/>
+        <edgeRelation from="E24" to="-E26" probability="0.4"/>
+        <edgeRelation from="E24" to="E27" probability="0.3"/>
+
+        <edgeRelation from="-E27.751" to="-E24" probability="0.1"/>
+        <edgeRelation from="-E27.751" to="-E25" probability="0.8"/>
+        <edgeRelation from="-E27.751" to="-E26" probability="0.1"/>
+        
+        <edgeRelation from="E99" to="-E0" probability="0.3"/>
+        <edgeRelation from="E99" to="E3" probability="0.7"/>
+        
+        <edgeRelation from="E100" to="-E1" probability="0.3"/>
+        <edgeRelation from="E100" to="E0" probability="0.7"/>
+
+        <edgeRelation from="E1" to="-E100" probability="0.2"/>
+        <edgeRelation from="E1" to="E0" probability="0.8"/>
+
+        <edgeRelation from="-E0.276" to="-E100" probability="0.2"/>
+        <edgeRelation from="-E0.276" to="-E1" probability="0.8"/>
+
+        <edgeRelation from="-E31.408" to="-E28" probability="0.2"/>
+        <edgeRelation from="-E31.408" to="-E30" probability="0.8"/>
+        <edgeRelation from="-E31.408" to="-E32" probability="0.2"/>
+        
+        <edgeRelation from="E28" to="-E30" probability="0.4"/>
+        <edgeRelation from="E28" to="-E32" probability="0.4"/>
+        <edgeRelation from="E28" to="E31" probability="0.2"/>
+
+        <edgeRelation from="E32" to="E31" probability="0.4"/>
+        <edgeRelation from="E32" to="-E28" probability="0.4"/>
+        <edgeRelation from="E32" to="-E30" probability="0.2"/>
+
+        <edgeRelation from="-E36.758" to="-E35" probability="0.3"/>
+        <edgeRelation from="-E36.758" to="-E33" probability="0.4"/>
+        <edgeRelation from="-E36.758" to="-E34" probability="0.3"/>
+        
+        <edgeRelation from="E35" to="-E33" probability="0.4"/>
+        <edgeRelation from="E35" to="-E34" probability="0.4"/>
+        <edgeRelation from="E35" to="E36" probability="0.2"/>
+
+        <edgeRelation from="E34" to="E36" probability="0.4"/>
+        <edgeRelation from="E34" to="-E35" probability="0.4"/>
+        <edgeRelation from="E34" to="-E33" probability="0.2"/>
+
+    </interval>
+
+</edgeRelations>
