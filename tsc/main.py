@@ -27,7 +27,7 @@ def run_experiment(constants):
 
 if __name__ == '__main__':
     # we need to import python modules from the $SUMO_HOME/tools directory
-    torch.multiprocessing.set_start_method('spawn', force=True)
+    torch.multiprocessing.set_start_method('spawn')
     if 'SUMO_HOME' in os.environ:
         tools = os.path.join(os.environ['SUMO_HOME'], 'tools')
         sys.path.append(tools)
