@@ -64,8 +64,8 @@ config = {
                       ],
         'reward_type': [
             'flow',
-            # 'green_utilization',
-            # 'green_balance',
+            'green_utilization',
+            'green_balance',
             'queue_len'
         ]
     },
